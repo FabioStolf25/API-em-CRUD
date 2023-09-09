@@ -1,0 +1,27 @@
+POST http://localhost:3333/user
+Content-Type: application/json
+
+{
+    "nome": "Fabio",
+    "email": "f@email.com",
+    "senha": "f12345"
+}
+
+###
+
+GET http://localhost:3333/user
+
+
+###
+
+PUT http://localhost:3333/user/
+Content-Type: application/json
+
+{
+    "nome": "Fabio Stolf",
+    "email": "f@email.com",
+    "senha": "f12345"
+}
+
+###
+DELETE http://localhost:3333/user/
